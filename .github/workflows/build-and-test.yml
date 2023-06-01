@@ -28,7 +28,7 @@ jobs:
     outputs:
       matrix: ${{ steps.execute.outputs.matrix }}
     steps:
-      - name: Get test combinations 1
+      - name: Get test combinations mob
         id: execute
         run: |
           echo Commit message: ${{ github.event.head_commit.message }}
